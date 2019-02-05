@@ -1,12 +1,12 @@
 /* W3.CSS 4.03 Mar 2017 by Jan Egil and Borge Refsnes */
 // Color Variables:
-$dark-brown: hsl(6, 29%, 13%);
+$dark-brown: hsl(6, 29%, 10%);
 $black-brown: hsl(6, 29%, 6%);
 $light-teal: rgb(0, 150, 136);
 $dark-teal: rgb(0, 61, 55);
 $baby-blue: #2196f3;
 $light-grey-shadow: #f1f1f1;
-$material-brown: #795548;
+$material-brown: hsl(15, 25%, 37%);
 $dark-teal-link: #00332B;
 $material-brown-darkest: #140C0B;
 $box-shadow: rgba(0,0,0,0.16); //Font Variables:
@@ -207,7 +207,6 @@ ul {
 
 .skillbar {
   // background-color: #009688!important;
-  background-color: $baby-blue;
   height: 22px!important;
   color: white;
   text-align: center;
@@ -228,8 +227,20 @@ ul {
   transition-duration: 1.5s;
 }
 
-.material-baby-blue-fill {
-  background-color: #2196f3!important;
+.blue-fill {
+  background-color: #2196f3;
+}
+
+.green-fill {
+  background-color: #4CAF50;
+}
+
+.orange-fill {
+  background-color: #FF9800;
+}
+
+.red-fill {
+  background-color: red;
 }
 
 .material-brown{

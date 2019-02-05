@@ -63,13 +63,14 @@
 
                             <script type="text/javascript">
 														let BackEndMap = {"Python": 3, "PostGreSQL & SQLite":3, "C / C++": 2, "Java":1, ".NET": 1};
-														let FrontEndMap = {"HTML / CSS / JavaScript": 3, "Hugo": 3, "Electron":1, "React":1 };
+														let FrontEndMap = {"HTML / CSS / JavaScript": 3, "Hugo": 3, "React":2, "Electron":1  };
                             let HobbyMap = {"Linux": 3, "RaspberryPi": 3, "Google Sheets": 3,
-                                            "Custom automation tools": 3, "Embedded Systems": 2, "MS Excel": 2 };
+                                            "Custom automation tools": 3, "Embedded Systems": 2, "MS Excel": 2, "Rust": 1 };
 
+                            let colors = {1: "green-fill", 2: "orange-fill", 3: "blue-fill"};
 														function fillMap(mapName, id) {
 															for (var skill in mapName) {
-																document.getElementById(id).innerHTML = document.getElementById(id).innerHTML + '<div class="skillbar-container"> <div class="w3-container skillbar" style="margin-top:2px; width:' + mapName[skill]/3 * 100 + '%"> ' + skill + ' </div> </div>';
+																document.getElementById(id).innerHTML = document.getElementById(id).innerHTML + '<div class="skillbar-container"> <div class="w3-container skillbar ' + colors[mapName[skill]] + ' " style="margin-top:2px; width:' + mapName[skill]/3 * 100 + '%"> ' + skill + ' </div> </div>';
 															}
 														}
 														fillMap(BackEndMap,"BackEnd");
@@ -95,7 +96,7 @@
                     <div class="w3-container">
                         <ul style="margin-top: 0">
                           <li>Studied Computer Science at Rice University in Houston, TX.</li>
-                          <li>3 years in Mathematics education as a teacher and private tutor teaching Math, Statistics and Programming up to College-level.</li>
+                          <li>3 years in Mathematics education as a teacher and private tutor teaching Math, Statistics and Programming from 6th grade up to College-level.</li>
                           <li>2 years working in Python and web development.</li>
                           <li>1 year in projects such as internal automation tools, databases, cryptocurrency analysis and IOT devices.</li>
                         </ul>

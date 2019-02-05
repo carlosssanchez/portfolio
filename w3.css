@@ -9,7 +9,7 @@ html {
 
 html * {
   font-family: "FontAwesome", sans-serif;
-  color: #2b1918; }
+  color: #211412; }
 
 a {
   text-decoration: none; }
@@ -155,7 +155,6 @@ ul {
   margin-left: 8px; }
 
 .skillbar {
-  background-color: #2196f3;
   height: 22px !important;
   color: white;
   text-align: center; }
@@ -173,8 +172,17 @@ ul {
   opacity: 0.6;
   transition-duration: 1.5s; }
 
-.material-baby-blue-fill {
-  background-color: #2196f3 !important; }
+.blue-fill {
+  background-color: #2196f3; }
+
+.green-fill {
+  background-color: #4CAF50; }
+
+.orange-fill {
+  background-color: #FF9800; }
+
+.red-fill {
+  background-color: red; }
 
 .material-brown {
   color: #795548 !important; }
