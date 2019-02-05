@@ -29,42 +29,43 @@
                         Carlos Sánchez
                     </div>
                     <hr style="margin-bottom:0;margin-top:10px">
-                    <div class="w3-container">
+                    <div id="links" class="w3-container">
                         <!-- Bullet Point Descriptions -->
 
+
 												<!-- Github -->
-												<p class="light-teal">
-                          <a href="https://github.com/Dollarman"><i class="fa fa-github fa-fw size-xl nomargin-r" aria-hidden="true"></i> Github </a></p>
+												<p class="link">
+                          <a href="https://github.com/Dollarman" target="_blank"><i class="fa fa-github fa-fw light-teal size-xl nomargin-r" aria-hidden="true"></i> Github </a></p>
 												<!-- LinkedIN -->
-												<p class="light-teal">
-                          <a href="https://linkedin.com/in/CarlosSSanchez"><i class="fa fa-linkedin fa-fw size-xl nomargin-r" aria-hidden="true"></i>LinkedIn</a></p>
+												<p class="link">
+                          <a href="https://linkedin.com/in/CarlosSSanchez" target="_blank"><i class="fa fa-linkedin light-teal fa-fw size-xl nomargin-r" aria-hidden="true"></i> LinkedIn </a></p>
 							 					<!-- Email -->
-												<p class="light-teal">
-                          <i class="fa fa-envelope fa-fw size-xl nomargin-r" aria-hidden="true"></i> <img src="email-plain.svg" alt="Email Address" class="svg light-teal"  style="margin-left: 0px;"></p>
+												<p class="link">
+                          <a href="mailto:carlos@cssanchez.com" target="_blank"> <i class="fa fa-at fa-fw light-teal size-xl nomargin-r" aria-hidden="true"></i> Email </a> </p>
 												<!-- Resume -->
-												<p class="light-teal">
-													<a href=""><i class="fa fa-download fa-fw size-xl nomargin-r" aria-hidden="true"></i> Resume  </a> </p>
+												<p class="link">
+													<a href="/resume.pdf" target="_blank"><i class="fa fa-download fa-fw light-teal size-xl nomargin-r light-teal" aria-hidden="true"></i> Resume  </a> </p>
                         <hr>
 
                         <!-- Skills -->
                         <p class="size-l"><b><i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>Skills</b></p>
-                            <p class="bar-text" id="BackEnd"> Back-End Stack </p>
+                            <p class="bar-title" id="BackEnd"> Back-End Stack </p>
                             <!-- <div class="skillbar-container">
                                 <div class="w3-container skillbar" style="width:100%"> 2+ Years Experience </div>
                             </div> -->
 
-                            <p class="bar-text" id="FrontEnd"> Front-End Stack</p>
+                            <p class="bar-title" id="FrontEnd"> Front-End Stack</p>
 
-														<p class="bar-text" id="DataScience"> Data Science / Business Intelligence</p>
+														<p class="bar-title" id="Hobby"> Hobby Stack</p>
                             <!-- <div class="skillbar-container">
                                 <div class="w3-container skillbar" style="width:70%">  </div>
                             </div> -->
 
-														<script type="text/javascript">
-														let BackEndMap = {"Python": 3, "SQL":3, "C / C++":2, "Java":1, ".NET": 1};
-														let FrontEndMap = {"Python":3, "HTML / CSS / JavaScript": 3, "Electron":1, "React":1 };
-														let DSMap = {"Python":3, "R": 3, "MS Office / Excel macros": 3, 	"PowerBI": 2};
-														// "D3 JS":1
+                            <script type="text/javascript">
+														let BackEndMap = {"Python": 3, "PostGreSQL & SQLite":3, "C / C++": 2, "Java":1, ".NET": 1};
+														let FrontEndMap = {"HTML / CSS / JavaScript": 3, "Hugo": 3, "Electron":1, "React":1 };
+                            let HobbyMap = {"Linux": 3, "RaspberryPi": 3, "Google Sheets": 3,
+                                            "Custom automation tools": 3, "Embedded Systems": 2, "MS Excel": 2 };
 
 														function fillMap(mapName, id) {
 															for (var skill in mapName) {
@@ -73,18 +74,10 @@
 														}
 														fillMap(BackEndMap,"BackEnd");
 														fillMap(FrontEndMap, "FrontEnd");
-														fillMap(DSMap, "DataScience");
+														fillMap(HobbyMap, "Hobby");
 														</script>
-                            <!--<p class="bar-text"> Software Development (Java, C++)</p>
-                            <div class="skillbar-container">
-                                <div class="w3-container skillbar" style="width:40%">Low Experience</div>
-                            </div>-->
-
-                            <!-- <p class="bar-text" id="Machine Learning"> Machine Learning (Keras, Theano, TensorFlow)</p>
-                            <div class="skillbar-container">
-                                <div class="w3-container skillbar" style="width:40%"> Learner</div>
-                            </div> -->
                             <br>
+
                         <!-- Languages -->
                         <p class="size-l"><i class="fa fa-language fa-fw "></i>Fluent in Spanish &amp; English</p>
 												<p class="size-l"><i class="fa fa-flag fa-fw "></i>U.S. born citizen </p>
@@ -97,19 +90,21 @@
             <!-- Right Column -->
             <div class="grid-right" style="position:relative;margin-bottom:23px">
                 <!-- About Me -->
-                <div class="w3-container w3-card-2 w3-white w3-margin-bottom" >
-                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-user fa-fw  size-xxl"></i>About Me</h2>
+                <div id="aboutme" class="w3-container w3-card-2 w3-white w3-margin-bottom" >
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-user fa-fw material-brown size-xxl"></i>About Me</h2>
                     <div class="w3-container">
-                        <p style="margin-top:0">
-                            Studied Mathematics at Rice University in Houston, TX. Since then, I've worked as a private tutor teaching Math, Statistics and Programming to high school and college students in San Juan, PR.
-														I also develop databases and automation apps for companies and government agencies.
-                        </p>
+                        <ul style="margin-top: 0">
+                          <li>Studied Computer Science at Rice University in Houston, TX.</li>
+                          <li>3 years in Mathematics education as a teacher and private tutor teaching Math, Statistics and Programming up to College-level.</li>
+                          <li>2 years working in Python and web development.</li>
+                          <li>1 year in projects such as internal automation tools, databases, cryptocurrency analysis and IOT devices.</li>
+                        </ul>
                     </div>
                 </div>
 
                 <!-- Work Experience -->
-                <div class="w3-container w3-card-2 w3-margin-bottom">
-                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-suitcase fa-fw size-xxl light-teal"></i>Work Experience</h2>
+                <div id="work" class="w3-container w3-card-2 w3-margin-bottom">
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-suitcase fa-fw material-brown size-xxl"></i>Work Experience</h2>
                     <div class="w3-container">
                         <h5><b>Freelance Developer &amp; Math Tutor</b></h5>
                         <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>January 2017 - <span class="w3-tag light-teal-fill w3-round">Present</span></h6>
@@ -143,8 +138,8 @@
                     </div>
                 </div>
                 <!-- Education -->
-                <div class="w3-container w3-card-2 w3-white">
-                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-graduation-cap fa-fw size-xxl"></i>Education</h2>
+                <div id="education" class="w3-container w3-card-2 w3-white">
+                    <h2 class="w3-padding-16 title-margin"><i class="fa fa-graduation-cap fa-fw material-brown size-xxl"></i>Education</h2>
 
 										<div class="w3-container">
 											<h5><b>Machine Learning Online Courses</b></h5>
@@ -163,8 +158,8 @@
 
                     <div class="w3-container">
                         <h5><b>Rice University</b></h5>
-                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>2011-2015</h6>
-                        <p> B.A. Mathematics (unfinished)</p>
+                        <h6 class="light-teal"><i class="fa fa-calendar fa-fw"></i>2011-2013</h6>
+                        <p> 61 Credits finished in Computer Science </p>
                         <hr>
                     </div>
 
