@@ -42,11 +42,28 @@ p,h2,h5,li,ul{color:rgba(0, 75, 68, 1)!important}*/
 .dark-teal {
   color: #003d37; }
 
-.link {
-  color: #00332B; }
+.date {
+  color: #009688 !important; }
+  .date i {
+    color: inherit; }
 
-.light-teal,
-i {
+.date-present {
+  background-color: #009688 !important; }
+
+.link {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.link * {
+  color: #455a64; }
+
+.link *:hover {
+  color: #009688; }
+
+.font-light-teal {
+  color: #009688; }
+
+.secondary-icon {
   color: #009688; }
 
 i {
@@ -184,18 +201,36 @@ ul {
 .red-fill {
   background-color: red; }
 
-.material-brown {
-  color: #795548 !important; }
+.font-red {
+  color: #F44336; }
 
-.teal-darker {
-  color: #00332B !important; }
+.font-blue {
+  color: #2196f3; }
 
-.material-brown-darkest {
-  color: #140C0B !important; }
+.font-light-purple {
+  color: #9c27b0; }
+
+.font-green {
+  color: #4CAF50; }
+
+.font-orange {
+  color: #FF9800; }
+
+.font-orange-darker {
+  color: #D32F2F; }
+
+.font-brown {
+  color: #765347; }
+
+.font-teal-darker {
+  color: #00332B; }
+
+.font-brown-darkest {
+  color: #140C0B; }
 
 .light-teal-fill {
   color: #fff !important;
-  background-color: #009688 !important; }
+  background-color: #009688; }
 
 .w3-card-2 {
   border-radius: 20px;

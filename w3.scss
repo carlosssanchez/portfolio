@@ -4,7 +4,13 @@ $dark-brown: hsl(6, 29%, 10%);
 $black-brown: hsl(6, 29%, 6%);
 $light-teal: rgb(0, 150, 136);
 $dark-teal: rgb(0, 61, 55);
-$baby-blue: #2196f3;
+$material-blue: #2196f3;
+$material-green: #4CAF50;
+$material-orange: #FF9800;
+$material-grey: #455a64;
+$material-red: #F44336;
+$material-orange-darker: #D32F2F;
+$material-light-purple: #9c27b0;
 $light-grey-shadow: #f1f1f1;
 $material-brown: hsl(15, 25%, 37%);
 $dark-teal-link: #00332B;
@@ -12,6 +18,7 @@ $material-brown-darkest: #140C0B;
 $box-shadow: rgba(0,0,0,0.16); //Font Variables:
 $base-font-size: 18px;
 $font-size-text: 22px;
+
 
 html {
   box-sizing: border-box;
@@ -65,14 +72,38 @@ p,h2,h5,li,ul{color:rgba(0, 75, 68, 1)!important}*/
   color: $dark-teal;
 }
 
-
-.link {
-  color: $dark-teal-link;
+.date {
+  color: $light-teal!important;
+  i {
+    color: inherit;
+  }
 }
 
-.light-teal,
-i {
-  color: rgb(0, 150, 136);
+.date-present {
+  background-color: $light-teal!important;
+}
+
+.link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.link *{
+  // color: $dark-teal-link;
+  color: $material-grey;
+
+}
+
+.link *:hover {
+  color: $light-teal;
+}
+
+.font-light-teal {
+  color: $light-teal;
+}
+
+// Used for Skills, Flag and Translation icons
+.secondary-icon {
+  color: $light-teal;
 }
 
 i {
@@ -228,36 +259,59 @@ ul {
 }
 
 .blue-fill {
-  background-color: #2196f3;
+  background-color: $material-blue;
 }
 
 .green-fill {
-  background-color: #4CAF50;
+  background-color: $material-green;
 }
 
 .orange-fill {
-  background-color: #FF9800;
+  background-color: $material-orange;
 }
 
 .red-fill {
   background-color: red;
 }
 
-.material-brown{
-  color: #795548!important;
+.font-red {
+  color: $material-red;
 }
 
-.teal-darker {
-  color: #00332B!important;
+.font-blue {
+  color: $material-blue;
 }
 
-.material-brown-darkest {
-  color: #140C0B!important;
+.font-light-purple {
+  color: $material-light-purple;
+}
+.font-green {
+  color: $material-green;
+}
+
+.font-orange {
+  color: $material-orange;
+}
+
+.font-orange-darker {
+  color: $material-orange-darker;
+}
+
+.font-brown{
+  color: $material-brown;
+}
+
+.font-teal-darker {
+  color: $dark-teal-link;
+}
+
+.font-brown-darkest {
+  color: $material-brown-darkest;
 }
 
 .light-teal-fill {
   color: #fff!important;
-  background-color: #009688!important;
+  background-color: #009688;
 }
 
 .w3-card-2 {

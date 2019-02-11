@@ -1,0 +1,5 @@
+{
+    "commands": [
+        "*.scss : sass {relPath}{name}.scss {relPath}{name}.css"
+    ]
+}
