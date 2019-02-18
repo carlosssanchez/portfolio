@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: cssanchez.com
+Token: ee2ea642d7884b0495d2fcaff9833cfeb74870f1e1b8c334581d989b980cbf4c
